@@ -2,9 +2,11 @@
 public class main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
-		System.out.println("adder = " + Adder.getNumber());
-		System.out.println("adder = " ++ Adder.getNumber());
+		int num = 0;
+	
+		int num2 = 1;
+		
+		System.out.println("adder = " + Adder.getNumber() + num2);
 	}
 
 }
